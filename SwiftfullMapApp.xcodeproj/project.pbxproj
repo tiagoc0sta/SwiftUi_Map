@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F04E36AA2C72442D0010E92D /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E36A92C72442D0010E92D /* LocationsViewModel.swift */; };
 		F04E36AC2C7268A80010E92D /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E36AB2C7268A80010E92D /* LocationsListView.swift */; };
+		F081216A2C72E2CF00F58CD5 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08121692C72E2CF00F58CD5 /* LocationPreviewView.swift */; };
 		F0DDE5462C6FADDD00A12C11 /* SwiftfullMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DDE5452C6FADDD00A12C11 /* SwiftfullMapAppApp.swift */; };
 		F0DDE5482C6FADDD00A12C11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DDE5472C6FADDD00A12C11 /* ContentView.swift */; };
 		F0DDE54D2C6FADDE00A12C11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0DDE54C2C6FADDE00A12C11 /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		F04E36A92C72442D0010E92D /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		F04E36AB2C7268A80010E92D /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		F08121692C72E2CF00F58CD5 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		F0DDE5422C6FADDD00A12C11 /* SwiftfullMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfullMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DDE5452C6FADDD00A12C11 /* SwiftfullMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfullMapAppApp.swift; sourceTree = "<group>"; };
 		F0DDE5472C6FADDD00A12C11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				F0DDE55F2C6FB55E00A12C11 /* LocationsView.swift */,
 				F04E36AB2C7268A80010E92D /* LocationsListView.swift */,
+				F08121692C72E2CF00F58CD5 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				F0DDE55E2C6FB2E400A12C11 /* LocationsDataService.swift in Sources */,
 				F04E36AC2C7268A80010E92D /* LocationsListView.swift in Sources */,
+				F081216A2C72E2CF00F58CD5 /* LocationPreviewView.swift in Sources */,
 				F04E36AA2C72442D0010E92D /* LocationsViewModel.swift in Sources */,
 				F0DDE5482C6FADDD00A12C11 /* ContentView.swift in Sources */,
 				F0DDE5602C6FB55E00A12C11 /* LocationsView.swift in Sources */,
