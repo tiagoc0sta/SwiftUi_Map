@@ -32,10 +32,13 @@ struct LocationMapAnnotationView: View {
                 .offset(y: -3)
                 .padding(.bottom, 40)
         }
-        .background(Color.blue)
+        
     }
 }
 
 #Preview {
-    LocationMapAnnotationView()
+    ZStack {
+        Color.black.ignoresSafeArea()
+        LocationMapAnnotationView()
+    }
 }
