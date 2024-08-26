@@ -31,6 +31,8 @@ struct LocationDetailView: View {
             }
         }
         .ignoresSafeArea()
+        .background(.ultraThinMaterial)
+        .overlay(backButton, alignment: .topLeading)
     }
 }
 
@@ -83,13 +85,30 @@ extension LocationDetailView {
     private var mapLayer: some View{
         Map(coordinateRegion: .constant(MKCoordinateRegion(
             center: location.coordinates,
-            span: vm.mapSpan)),
+            span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))),
             annotationItems: [location]) { location in
             MapAnnotation(coordinate: location.coordinates) {
                 LocationMapAnnotationView()
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             }
         }
+            .allowsHitTesting(/*@START_MENU_TOKEN@*/false/*@END_MENU_TOKEN@*/)
             .aspectRatio(1, contentMode: .fit)
+            .cornerRadius(30)
+    }
+    
+    private var backButton: some View {
+        Button{
+            vm.sheetLocation = nil
+        } label: {
+            Image(systemName: "xmark")
+                .font(.headline)
+                .padding(16)
+                .foregroundColor(.primary)
+                .background(.thickMaterial)
+                .cornerRadius(10)
+                .shadow(radius: 4)
+                .padding()
+        }
     }
 }
