@@ -31,7 +31,7 @@ This is an app to display a location in a map
 
 ## Preview
 
-![Untitled design](https://github.com/user-attachments/assets/4f035cb0-6df4-482b-9cb0-36b1ef266175)
+[Watch Preview](https://github.com/user-attachments/assets/6cbada82-065e-4bd0-83cf-9ae4fec524ca)
 
 
 ## Preview
