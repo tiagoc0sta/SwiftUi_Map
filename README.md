@@ -1,4 +1,4 @@
-# Todo App
+# SwiftUI Map App
 
 ## Developing an iOS app with SWIFTUI
 
