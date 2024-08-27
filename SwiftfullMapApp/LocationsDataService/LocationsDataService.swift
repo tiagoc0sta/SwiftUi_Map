@@ -65,6 +65,26 @@ class LocationsDataService {
                 "paris-louvre-3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        
+        
+        Location(name: "Toronto Tower",
+                 cityName: "Toronto",
+                 coordinates: CLLocationCoordinate2D(latitude: 43.6426, longitude: 79.3871),
+                 description: "CN Tower, whose designers included John Andrews, Webb Zerafa, Menkes Housden, and E.R. Baldwin, is by far Toronto's most distinctive landmark. It is a major tourist attraction that includes observation decks, a revolving restaurant at some 1,151 feet (351 metres), and an entertainment complex.J",
+                 imageNames: [
+                    "toronto-tower-1",
+                    "toronto-tower-2"
+                 ],
+                 link: "https://en.wikipedia.org/wiki/CN_Tower"),
+        
+        Location(name: "Caratinga",
+                 cityName: "Caratinga",
+                 coordinates: CLLocationCoordinate2D(latitude: 19.7887, longitude: 42.1417),
+                 description: "Caratinga é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se no Vale do Rio Doce e pertence ao colar metropolitano do Vale do Aço, estando situado a cerca de 310 km a leste da capital do estado. Ocupa uma área de 1 258,479 km², sendo que 17 km² estão em área urbana, e sua população em 2022 era de 87 360 habitantes",
+                 imageNames: [
+                    "ctga-cat-1",
+                    "ctga-mm-1"
+                 ],
+                 link: "https://pt.wikipedia.org/wiki/Caratinga")
     ]
-    
 }
